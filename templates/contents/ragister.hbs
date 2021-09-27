@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    <title>Ragistration</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <div id="card">
+        <form action="/ragister" method="POST" id="mcard">
+            First Name : <input type="text" class="" placeholder="First name" value="" name="firstname" >
+            Last Name :<input type="text" class="" placeholder="Last name" value="" name="lastname">
+            Email :<input type="email" class="" placeholder="Email" value="" name="email">
+            Your Phone :<input type="text" name="number" id="" placeholder="Phone Number">
+            Your Age :<input type="number" name="age" id="age" placeholder="Your age">
+
+            <div>
+                <div>
+                    Gender :
+                </div>
+            <input type="radio" name="gender" id="" value="Male">Male
+            <input type="radio" name="gender" id="" value="Female">Female
+            </div>
+            Password :<input type="password" name="password" id="" placeholder="Passward">
+            Confirm Password :<input type="password" name="cpassword" id="" placeholder="Confirm Passward">
+            <input type="submit" value="Sign in" id="btnsub">
+        </form>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

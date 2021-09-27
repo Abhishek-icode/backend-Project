@@ -1,0 +1,41 @@
+#card{
+    width: 50vw;
+    margin: auto;
+}
+
+#mcard{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+input{
+    margin: 5px;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+#btnsub{
+    width: 5vw;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 178, 255);
+}
+
+#abouthead{
+    font-size: 5rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
